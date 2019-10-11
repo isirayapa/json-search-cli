@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-**Python 3**
+**Python 3**``
 
 **Virtual Environment**
 
@@ -17,3 +17,19 @@
 **Install Dependencies**
 
 `pip install -r requirements.txt`
+
+**Run application**
+
+`python index.py`
+
+**Run tests**
+
+`pytest`
+
+**Instructions to use**
+
+![alt text](https://github.com/isirayapa/json-search-cli/blob/master/img/img.png)
+
+**Acknowledgments**
+
+* Swivel Group
