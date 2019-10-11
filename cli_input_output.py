@@ -6,17 +6,17 @@ INSTRUCTIONS_STRING = 'Type \'quit\' to exit at any time, Press \'Enter\' to con
                       '\t\t* Press 1 to search\n' \
                       '\t\t* Press 2 to view a list of searchable fields\n' \
                       '\t\t* Type \'quit\' to exit\n'
-BORDER_STRING = '-------------------------------------------------------------------------'
+BODER_STRING = '-------------------------------------------------------------------------'
 
 
 def print_searchable():
-    print(BORDER_STRING)
+    print(BODER_STRING)
     print("Search Users with")
     print_keys(UserDict)
-    print(BORDER_STRING)
+    print(BODER_STRING)
     print("Search Tickets with")
     print_keys(TicketDict)
-    print(BORDER_STRING)
+    print(BODER_STRING)
     print("Search Organizations with")
     print_keys(OrganizationDict)
 
